@@ -23,5 +23,12 @@ namespace Backend.Models
         [Url]
         public string FileUrl { get; set; } = string.Empty;
 
+        //Relationship
+        public int ApplicationUserId { get; set; }
+        [Required]
+        public ApplicationUser? ApplicationUser { get; set; }
+        public Transcription? Transcription { get; set; } 
+        public Summary? Summary { get; set; } 
+        public ICollection<ActionItem> ActionItems { get; set; }= new List<ActionItem>();
     }
 }

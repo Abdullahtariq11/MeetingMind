@@ -13,5 +13,9 @@ namespace Backend.Models
         [Required]
         public string Content { get; set; }= string.Empty;
         public DateTime Createddate { get; set; }
+        // Relationship
+        public int MeetingId { get; set; }
+        [Required]
+        public Meeting? Meeting { get; set; }
     }
 }

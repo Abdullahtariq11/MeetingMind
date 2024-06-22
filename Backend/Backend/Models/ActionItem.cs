@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using Npgsql.Internal;
 
 namespace Backend.Models
 {
@@ -16,5 +17,8 @@ namespace Backend.Models
         public string? AssignTo { get; set; } 
         public DateTime CreatedDate { get; set; }
         public DateTime DueDate { get; set; }
+        //Relationship
+        public int MeetingId { get; set; }
+        public Meeting Meeting { get; set; }= new Meeting();
     }
 }

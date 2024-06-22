@@ -16,6 +16,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+//Connetion setup to the database
+
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

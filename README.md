@@ -82,4 +82,3 @@ AI powered Meeting Summarizer
    - Allow users to export summaries and action items to various formats (PDF, text).
    - Integrate with other tools (e.g., Trello, Asana) if desired.
 
-By following this roadmap, you’ll be able to develop a robust and useful AI-Powered Meeting Summarizer. If you need more detailed guidance on any specific part of the development process, feel free to ask!

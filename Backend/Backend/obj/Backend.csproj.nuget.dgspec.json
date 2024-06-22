@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/abdullahtariq/Documents/GitHub/MeetingMind/Backend/MyWebAPI/MyWebAPI.csproj": {}
+    "/Users/abdullahtariq/Documents/GitHub/MeetingMind/Backend/Backend/Backend.csproj": {}
   },
   "projects": {
-    "/Users/abdullahtariq/Documents/GitHub/MeetingMind/Backend/MyWebAPI/MyWebAPI.csproj": {
+    "/Users/abdullahtariq/Documents/GitHub/MeetingMind/Backend/Backend/Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/abdullahtariq/Documents/GitHub/MeetingMind/Backend/MyWebAPI/MyWebAPI.csproj",
-        "projectName": "MyWebAPI",
-        "projectPath": "/Users/abdullahtariq/Documents/GitHub/MeetingMind/Backend/MyWebAPI/MyWebAPI.csproj",
+        "projectUniqueName": "/Users/abdullahtariq/Documents/GitHub/MeetingMind/Backend/Backend/Backend.csproj",
+        "projectName": "Backend",
+        "projectPath": "/Users/abdullahtariq/Documents/GitHub/MeetingMind/Backend/Backend/Backend.csproj",
         "packagesPath": "/Users/abdullahtariq/.nuget/packages/",
-        "outputPath": "/Users/abdullahtariq/Documents/GitHub/MeetingMind/Backend/MyWebAPI/obj/",
+        "outputPath": "/Users/abdullahtariq/Documents/GitHub/MeetingMind/Backend/Backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/abdullahtariq/.nuget/NuGet/NuGet.Config"
@@ -43,10 +43,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.4, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

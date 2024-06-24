@@ -19,6 +19,7 @@ namespace Backend.Models
         public DateTime DueDate { get; set; }
         //Relationship
         public int MeetingId { get; set; }
-        public Meeting Meeting { get; set; }= new Meeting();
+        [Required]
+        public Meeting? Meeting { get; set; }
     }
 }

@@ -24,7 +24,8 @@ namespace Backend.Models
         public string FileUrl { get; set; } = string.Empty;
 
         //Relationship
-        public int ApplicationUserId { get; set; }
+        [Required]
+        public string? ApplicationUserId { get; set; }
         [Required]
         public ApplicationUser? ApplicationUser { get; set; }
         public Transcription? Transcription { get; set; } 

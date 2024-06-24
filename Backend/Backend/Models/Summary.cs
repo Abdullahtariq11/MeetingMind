@@ -12,8 +12,9 @@ namespace Backend.Models
         public int Id { get; set; }
         [Required]
         public string Content { get; set; }= string.Empty;
-        public DateTime Createddate { get; set; }
+        public DateTime CreatedDate { get; set; }
         // Relationship
+        
         public int MeetingId { get; set; }
         [Required]
         public Meeting? Meeting { get; set; }
